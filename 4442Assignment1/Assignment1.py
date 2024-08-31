@@ -332,7 +332,7 @@ plt.title("Weight Parameters as a Function of Lambda")
 plt.ylabel("Weight")
 plt.xlabel("Lambda (log10)")
 plt.legend()
-#plt.show()
+plt.show()
 
 # Cross-validation procedure
 def crossValidation(xTrainData, xColumnTrainData, yTrainData, xTestData):
